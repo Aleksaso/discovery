@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+. button{
+    position: absolute;
+}  
+
+body{
+    font-family: sans-serif;
+    background-color:aliceblue;
+    color: rgba(20, 20, 20, 0.904);
+
+}
+.navbar{
+
+   padding: 20px 20px;
+}

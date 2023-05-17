@@ -14,12 +14,18 @@
 .menu-content{
 	display: none;
 	position: absolute;
-	cursor: pointer;
-	padding: 28px 20px;
+	background-color: antiquewhite;
+	min-width: none;
+	box-shadow: none;
+
+
 
 }
 .menu-content a{
 	position: absolute;
+	padding: 0;
+	text-decoration: ;
+	display: none;
 }
 body{
 	font-family: sans-serif;

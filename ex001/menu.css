@@ -1,0 +1,26 @@
+#menu, #menu-ckeck {
+	display: none;
+}
+#menu-ckeck:not(:checked) ~ nav{
+	display: none;
+}
+#menu{
+	display: block;
+	color:rgba(47, 89, 5, 0.683);
+	background-color:rgb(255, 255, 255);
+	font-size: 1.2em;
+	font-weight: bold;
+	border: 2px solid;
+	border-radius: 0.3em;
+	border-right: 60px solid;
+
+}
+#menu:hover{
+	color: rgb(255, 255, 255);
+	background-color: rgb(47, 89, 5, 0.683);
+
+}
+#menu-cerrar{
+	display: none;
+
+}

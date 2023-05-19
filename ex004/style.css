@@ -50,7 +50,7 @@ body{
     position: absolute;
     background:#ffff;
 }
-.card .img img{ 
+.card .img img{
     width: 120%;
     height: 120%;
     transform: translate(-8%,-8%);
@@ -62,7 +62,7 @@ body{
     display: flex;
     flex-direction: column;
     z-index: 20;
-    align-items: center;    
+    align-items: center;
 }
 .content p{
     margin: 0 0;
@@ -77,7 +77,7 @@ body{
 .box{
     padding: 10px 30px;
     border-radius: 10px;
-    text-align: center;    
+    text-align: center;
 }
 .box:hover{
     background-color: rgb(128,128,128, 0.89);
@@ -94,5 +94,60 @@ body{
     font-weight: 600;
     box-shadow: 0 0 20px rgb(0, 0, 0 0.13);
     cursor: pointer;
-    
+
+}
+.redes {
+    position: absolute;
+    top: 100px;
+    left: 89%;
+    transform: translate(-50%,-50%);
+    width: 550px;
+}
+
+.redes ul {
+    list-style: none;
+}
+.redes ul{
+    width: 35px;
+    height: 35px;
+    line-height: 75px;
+    margin: 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #575656;
+    float: left;
+    transition: all 0.5s ease;
+}
+
+.redes ul li .fa{
+    color: #c31432;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
+.redes ul li:hover.facebook{
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 05.s ease;
+}
+.redes ul li:hover .fa-faccebook {
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+.redes ul li .fa{
+    color: #c31432;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: all 0.5s ease;
+}
+.redes ul li:hover.github{
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 05.s ease;
+}
+.redes ul li:hover .fa-github {
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
 }

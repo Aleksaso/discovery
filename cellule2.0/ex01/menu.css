@@ -1,19 +1,58 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-. button{
-    position: absolute;
-}  
-
-body{
-    font-family: sans-serif;
-    background-color:aliceblue;
-    color: rgba(20, 20, 20, 0.904);
-
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 .navbar{
+	padding: 20px 20px;
+}
 
-   padding: 20px 20px;
+ul{
+	display: none;
+}
+
+input:checked~ul{
+	display: block;
+}
+input{
+	display: none;
+}
+
+label{
+	box-sizing: border-box;
+	display: inline-block;
+	border: 3px solid black;
+	border-radius: 5px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	text-align: center;
+	user-select: none;
+}
+
+label:hover{
+	background: rgba(47, 89, 5, 0.683);
+}
+
+input:checked~label{
+	background: rgb(118, 114, 114);
+}
+ul{
+	margin-top: 0;
+	padding: 0;
+	width: 200px;
+}
+
+li{
+	display: block;
+	background: lightgray;
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+	border-bottom: 1px solid grey;
+}
+li:hover{
+	filter: brightness(110%);
+
 }
